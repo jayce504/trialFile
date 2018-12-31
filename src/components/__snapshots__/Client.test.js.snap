@@ -1,0 +1,871 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Client renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Client
+    client={
+      Object {
+        "id": 1,
+      }
+    }
+    removeClient={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            1,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Form
+          bsClass="form"
+          componentClass="form"
+          horizontal={false}
+          inline={false}
+        >
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Name:
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Address:
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Phone Number:
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+          <FormGroup
+            bsClass="form-group"
+          >
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+            >
+              Alleged Offenses:
+            </ControlLabel>
+            <FormControl
+              bsClass="form-control"
+              className="input-person"
+              componentClass="input"
+              onChange={[Function]}
+            />
+          </FormGroup>
+        </Form>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-remove"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Remove Client
+        </Button>,
+      ],
+      "className": "client",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "form",
+          "children": Array [
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Name:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Address:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Phone Number:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Alleged Offenses:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>,
+          ],
+          "componentClass": "form",
+          "horizontal": false,
+          "inline": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Name:
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Name:",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Name:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-person",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Address:
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Address:",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Address:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-person",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Phone Number:
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Phone Number:",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Phone Number:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-person",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Alleged Offenses:
+                </ControlLabel>,
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "control-label",
+                  "children": "Alleged Offenses:",
+                  "srOnly": false,
+                },
+                "ref": null,
+                "rendered": "Alleged Offenses:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "bsClass": "form-control",
+                  "className": "input-person",
+                  "componentClass": "input",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Remove Client",
+          "className": "btn-remove",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove Client",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Form
+            bsClass="form"
+            componentClass="form"
+            horizontal={false}
+            inline={false}
+          >
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Name:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Address:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Phone Number:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+            <FormGroup
+              bsClass="form-group"
+            >
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+              >
+                Alleged Offenses:
+              </ControlLabel>
+              <FormControl
+                bsClass="form-control"
+                className="input-person"
+                componentClass="input"
+                onChange={[Function]}
+              />
+            </FormGroup>
+          </Form>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-remove"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Remove Client
+          </Button>,
+        ],
+        "className": "client",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "form",
+            "children": Array [
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Name:
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Address:
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Phone Number:
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+              <FormGroup
+                bsClass="form-group"
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Alleged Offenses:
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  className="input-person"
+                  componentClass="input"
+                  onChange={[Function]}
+                />
+              </FormGroup>,
+            ],
+            "componentClass": "form",
+            "horizontal": false,
+            "inline": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Name:
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-person"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Name:",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Name:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-person",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Address:
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-person"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Address:",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Address:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-person",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Phone Number:
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-person"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Phone Number:",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Phone Number:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-person",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-group",
+                "children": Array [
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Alleged Offenses:
+                  </ControlLabel>,
+                  <FormControl
+                    bsClass="form-control"
+                    className="input-person"
+                    componentClass="input"
+                    onChange={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "control-label",
+                    "children": "Alleged Offenses:",
+                    "srOnly": false,
+                  },
+                  "ref": null,
+                  "rendered": "Alleged Offenses:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "bsClass": "form-control",
+                    "className": "input-person",
+                    "componentClass": "input",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Remove Client",
+            "className": "btn-remove",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove Client",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
