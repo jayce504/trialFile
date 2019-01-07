@@ -15,6 +15,7 @@ import NewClient from '../components/NewClient';
 import ViewClient from '../components/ViewClient';
 import AllClients from '../components/AllClients';
 
+  
 const Home = () => (
     <div className="ui container">
       <AllClients />

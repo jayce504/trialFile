@@ -86,6 +86,15 @@ class AllClients extends Component {
         </Link>
     );
 
+    User = () => Auth.currentAuthenticatedUser({
+        bypassCache: false  // Optional, By default is false. If set to true, this call will send a request to Cognito to get the latest user data
+        }).then(user => console.log(user))
+        .catch(err => console.log(err));
+
+    Session = () => Auth.currentSession()
+        .then(data => console.log(data))
+        .catch(err => console.log(err));
+
     render() {
         const { busy } = this.state;
         const { clients } = this.props;
@@ -94,6 +103,12 @@ class AllClients extends Component {
             <div>
                 <div className="ui clearing basic segment">
                     <h1 className="ui header left floated">All Clients</h1>
+                    <button className="ui icon left basic button" onClick={this.User} disabled={busy}>
+                        Console Log User
+                    </button>
+                    <button className="ui icon left basic button" onClick={this.Session} disabled={busy}>
+                        Console Log Session
+                    </button>
                     <button className="ui icon left basic button" onClick={this.handleSync} disabled={busy}>
                         <i aria-hidden="true" className={`refresh icon ${busy && "loading"}`}></i>
                         Sync with Server

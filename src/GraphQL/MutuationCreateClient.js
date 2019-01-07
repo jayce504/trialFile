@@ -1,7 +1,7 @@
 import gql from "graphql-tag";
 
 export default gql(`
-    mutation($name: String $address: String! $phoneNumber: String! $allegedOffenses: String! $offenseClass: String!, $disposition: String!, $sentence: String!, $sentencingJudge: String!) {
+    mutation($name: String, $address: String, $phoneNumber: String, $allegedOffenses: String, $offenseClass: String, $disposition: String, $sentence: String, $sentencingJudge: String) {
         createClient(
             name: $name
             address: $address

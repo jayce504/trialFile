@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "apollo-client": "^2.4.7",
+    "apollo-client": "^2.4.8",
     "aws-appsync": "^1.5.2",
     "aws-appsync-react": "^1.2.3",
     "bootstrap": "^4.1.3",

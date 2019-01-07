@@ -76,8 +76,9 @@ class NewClient extends Component {
                     </div>
                     <div className="field required eight wide">
                         <label htmlFor="description">Dispositon</label>
-                        <select className='form-group' input id="disposition" rows="10" value={client.disposition} onChange={this.handleChange.bind(this, 'disposition')}>
-                            <option>Guilty Plea Before Trial: Most Serious Original Trial</option>
+                        <select className='form-group' id="disposition" rows="10" value={client.disposition} onChange={this.handleChange.bind(this, 'disposition')}>
+                            <option>-</option>
+                            <option>Guilty Plea Before Trial: Most Serious Original Charge</option>
                             <option>Guilty Plea Before Trial: Other Offense</option>
                             <option>Guilty Plea During Trial: Other Offense</option>
                             <option>Trial: Guilty Most Serious Original Charge</option>
@@ -97,7 +98,8 @@ class NewClient extends Component {
                     </div>
                     <div className="field required eight wide">
                         <label htmlFor="description">Sentence</label>
-                        <select className='form-group' input id="disposition" rows="10" value={client.disposition} onChange={this.handleChange.bind(this, 'disposition')}>
+                        <select className='form-group' id="sentence" rows="10" value={client.sentence} onChange={this.handleChange.bind(this, 'sentence')}>
+                            <option>-</option>
                             <option>Active Sentence</option>
                             <option>Split Sentence</option>
                             <option>Supervised Probation</option>
@@ -114,7 +116,8 @@ class NewClient extends Component {
                     </div>
                     <div className="field required eight wide form-group">
                         <label htmlFor="description">Sentencing Judge</label>
-                        <select className='form-group' input id="sentencingJudge" rows="10" value={client.sentencingJudge} onChange={this.handleChange.bind(this, 'sentencingJudge')}>
+                        <select className='form-group' id="sentencingJudge" rows="10" value={client.sentencingJudge} onChange={this.handleChange.bind(this, 'sentencingJudge')}>
+                            <option>-</option>
                             <option>Hon. Jeannette Reeves</option>
                             <option>Hon. Larry Wilson</option>
                             <option>Hon. Micah Sanderson</option>
