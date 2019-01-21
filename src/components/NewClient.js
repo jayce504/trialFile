@@ -16,6 +16,7 @@ class NewClient extends Component {
 
     state = {
         client: {
+            picture: '',
             name: '',
             address: '',
             phoneNumber: '',
@@ -47,10 +48,22 @@ class NewClient extends Component {
         history.push('/');
     }
 
+
     render() {
         const { client } = this.state;
 
         return (
+            <div>
+                <head>
+                    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+                    {/* <script src="./app.js"></script> */}
+                    {/* <script>
+                    function getHtml(template) {
+                        return template.join('\n');
+                    }
+                    listAlbums();
+                    </script> */}
+                </head>
             <div className="ui container raised very padded segment">
                 <h1 className="ui header">Create A Client</h1>
                 <div className="ui form">
@@ -126,12 +139,24 @@ class NewClient extends Component {
                             <option>Hon. Justin K. Brackett</option>
                         </select>
                     </div>
+                    <form method="post" action='addPhoto' enctype="multipart/form-data">
+                        <input type="hidden" name="AWSAccessKeyId" value="{{ config('filesystems.disks.s3.key') }}"/>
+                        <input type="hidden" name="acl" value="private"/>
+                        <input type="hidden" name="key" value="${filename}"/>
+                        <input type="hidden" name="policy" value="{{ $policy }}"/>
+                        <input type="hidden" name="success_action_redirect" value="{{ url('http://localhost:3000/newClient') }}"/>
+                        <input type="hidden" name="signature" value="{{ $signature }}"/>
+                        <input type="file" name="file" />
+                        <button type="submit">Upload</button>
+                    </form>
+                    <br />
                     <div className="ui buttons">
                         <Link to="/" className="ui button">Cancel</Link>
                         <div className="or"></div>
                         <button className="ui positive button" onClick={this.handleSave}>Save</button>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

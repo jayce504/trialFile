@@ -14,6 +14,7 @@ import '../App.css';
 import NewClient from '../components/NewClient';
 import ViewClient from '../components/ViewClient';
 import AllClients from '../components/AllClients';
+import AddPhoto from '../components/AddPhoto';
 
   
 const Home = () => (
@@ -28,6 +29,7 @@ const App = () => (
         <Route exact={true} path="/" component={Home} />
         <Route path="/client/:id" component={ViewClient} />
         <Route path="/newClient" component={NewClient} />
+        <Route path="/addPhoto" component={AddPhoto} />
       </div>
     </Router>
   );

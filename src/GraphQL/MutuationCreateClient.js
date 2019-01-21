@@ -1,8 +1,9 @@
 import gql from "graphql-tag";
 
 export default gql(`
-    mutation($name: String, $address: String, $phoneNumber: String, $allegedOffenses: String, $offenseClass: String, $disposition: String, $sentence: String, $sentencingJudge: String) {
+    mutation($picture: String, $name: String, $address: String, $phoneNumber: String, $allegedOffenses: String, $offenseClass: String, $disposition: String, $sentence: String, $sentencingJudge: String) {
         createClient(
+            picture: $picture
             name: $name
             address: $address
             phoneNumber: $phoneNumber
@@ -13,6 +14,7 @@ export default gql(`
             sentencingJudge: $sentencingJudge
         ) {
             id
+            picture
             name
             address
             phoneNumber

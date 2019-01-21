@@ -62,6 +62,10 @@ class AllClients extends Component {
     renderClient = (client) => (
         <Link to={`/client/${client.id}`} className="card" key={client.id}>
             <div className="content">
+                <div className="ui image">
+                    <img src="../images/new-york.jpeg" class="visible content" />
+                </div>
+                <hr />
                 <div className="header">{client.name}</div>
             </div>
             <div className="content">
@@ -102,18 +106,12 @@ class AllClients extends Component {
         return (
             <div>
                 <div className="ui clearing basic segment">
-                    <h1 className="ui header left floated">All Clients</h1>
-                    <button className="ui icon left basic button" onClick={this.User} disabled={busy}>
-                        Console Log User
-                    </button>
-                    <button className="ui icon left basic button" onClick={this.Session} disabled={busy}>
-                        Console Log Session
-                    </button>
-                    <button className="ui icon left basic button" onClick={this.handleSync} disabled={busy}>
+                    <h1 className="ui header center aligned">All Clients</h1>
+                    <button className="ui icon center aligned basic button" onClick={this.handleSync} disabled={busy}>
                         <i aria-hidden="true" className={`refresh icon ${busy && "loading"}`}></i>
                         Sync with Server
                     </button>
-                    <button className="ui icon left basic button" onClick={this.signout} disabled={busy}>
+                    <button className="ui icon center aligned basic button" onClick={this.signout} disabled={busy}>
                         Signout
                     </button>
                 </div>
